@@ -41,8 +41,8 @@ app.all('/verify', function (req, res) {
 if (LOCAL === false) {
 
   const credentials = {
-    key: fs.readFileSync('/etc/letsencrypt/live/cryptokittydata.info/privkey.pem'),
-    cert: fs.readFileSync('/etc/letsencrypt/live/cryptokittydata.info/fullchain.pem')
+    key: fs.readFileSync('/etc/letsencrypt/live/dna.cryptokittydata.info/privkey.pem'),
+    cert: fs.readFileSync('/etc/letsencrypt/live/dna.cryptokittydata.info/fullchain.pem')
   };
 
   httpServer = https.createServer(credentials, app);
