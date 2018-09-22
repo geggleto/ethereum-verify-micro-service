@@ -5,7 +5,7 @@ const app = express();
 const bodyParser = require('body-parser');
 const http = require('http');
 const https = require('https');
-const Web3 = require('Web3');
+const Web3 = require('web3');
 
 let httpServer;
 
