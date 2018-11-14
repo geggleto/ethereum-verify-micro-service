@@ -7,7 +7,7 @@ const Web3 = require('web3');
 
 let web3 = new Web3(new Web3.providers.HttpProvider('https://mainnet.infura.io/metamask'));
 
-let blockNumber = 6700178;
+let blockNumber = 6699844;
 
 //Process Transaction Hashes
 
